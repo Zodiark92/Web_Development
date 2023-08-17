@@ -1,0 +1,20 @@
+body {
+    color: purple;
+}
+
+h1 {
+    color: blue;
+}
+
+section {
+    color: chocolate;
+}
+
+form {
+    color: rgb(180, 22, 43)
+}
+
+button,
+input {
+    color: inherit;
+}

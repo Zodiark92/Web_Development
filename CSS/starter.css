@@ -1,0 +1,120 @@
+/* * {
+    background-color: rgb(58, 241, 196);
+}  */
+
+body {
+    background-color: #fefae0;
+}
+
+button {
+    background-color: #bde0fe;
+    font-size: 20px;
+}
+
+h1,
+h2 {
+    color: #023047;
+}
+
+#signup {
+    background-color: #264653;
+    color: antiquewhite;
+}
+
+span {
+    color: #2a9d8f;
+}
+
+.tag {
+    background-color: #fb5607;
+    color: aliceblue;
+    font-size: 16px;
+
+}
+
+.post a {
+    color: rgb(226, 43, 67);
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+footer a {
+    color: #fb8500;
+}
+
+input+button {
+    background-color: pink;
+}
+
+h2+button {
+    font-size: 15px;
+    background-color: mediumseagreen;
+}
+
+footer>a {
+    color: #22223b;
+}
+
+input[type="password"] {
+    color: red;
+}
+
+/* -> I CAN SELECT FOR EXAMPLE CLASS="...", CLASS IS AN ATTRIBUTE
+section[class="post"] {
+    background-color: purple;
+}
+*/
+
+a[href*="google"] {
+    color: red;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: #669bbc;
+}
+
+.post:nth-of-type(2n) {
+    background-color: #f5acbe;
+}
+
+h2::first-letter {
+    font-size: 30px;
+}
+
+p::first-line {
+    color: purple;
+}
+
+p::selection {
+    background-color: #ffbe0b;
+}
+
+/* I overwrite the css property -> for the cascade I see this in the browser */
+h1,
+h2 {
+    color: #fb8500;
+}
+
+/* SPECIFICITY: The more specific selector wins */
+
+.post button:hover {
+    background-color: #c1121f;
+    color: #fdf0d5;
+}
+
+button:hover {
+    background-color: olive;
+    font-size: 10px;
+}
+
+
+/*
+USE OF !important -> It overrides the other declarations: all buttons become magenta
+button {
+    background-color: magenta !important;
+} */
